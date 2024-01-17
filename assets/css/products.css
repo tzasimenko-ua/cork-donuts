@@ -183,6 +183,9 @@ hr {
     transition: opacity .2s linear;
 }
 
+.product__item:hover .product__image {
+    opacity: .1;
+}
 .product__item:hover .product__info {
     opacity: 1;
 }
@@ -191,6 +194,16 @@ hr {
     display: none;
 }
 
+.product__image {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    transition: opacity .2s linear;
+    margin: 10px;
+
+}
 
 .product__title2 {
     margin-bottom: 5px;
