@@ -1,8 +1,12 @@
+
 body {
     margin: 0;
+    padding: 0;
     font-size: 15px;
-    color: #333333;
+    color: #000000;
     line-height: 1.6;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
@@ -28,100 +32,15 @@ hr {
     border-top: 2px solid #ffffff;
 }
 
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Header */
-.header {
-    width: 100%;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-}
-
-.header__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__logo {
-    font-size: 30px;
-    font-weight: 700;
-    color: floralwhite;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-
-}
-
-.header__logo span {
-    color: #00CED1;
-}
 
 
-.nav {
-    font-size: 18px;
-    text-transform: uppercase;
-
-}
-
-.nav__container {
-    border: 2px solid #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 7px 10px;
-    background: #1a7c87;
-}
-
-.nav__link {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 10px;
-    color: floralwhite;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
-    position: relative;
-    text-decoration: none;
-    transition: color .1s linear;
-}
-
-.nav__link:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    transition: opacity .1s linear;
-}
-
-.nav__link:hover {
-    text-shadow: #000000;
-}
-
-.nav__link:hover:after,
-.nav__link.active:after {
-    opacity: 1;
-}
-
-.contact__us {
+.contactUs {
     position: relative;
     width: 100%;
     padding: 100px;
 }
 
-.contact__us .title {
+.contactUs .title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +50,7 @@ hr {
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
 }
 
-.contact__us .title h2 {
+.contactUs .title h2 {
     color: white;
     font-weight: 400;
 
@@ -181,37 +100,37 @@ hr {
 
 
 /* form */
-.form__box {
+.formBox {
     position: relative;
     width: 100%;
 }
 
-.form__box .row50 {
+.formBox .row50 {
     display: flex;
     gap: 20px;
 
 }
 
-.input__box {
+.inputBox {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     width: 50%;
 }
 
-.form__box .row100 .input__box {
+.formBox .row100 .inputBox {
     width: 100%;
 
 }
 
-.input__box span {
+.inputBox span {
     color: #62abcd;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
 }
 
-.input__box input {
+.inputBox input {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
@@ -221,7 +140,7 @@ hr {
 
 }
 
-.input__box textarea {
+.inputBox textarea {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
@@ -233,7 +152,7 @@ hr {
 
 }
 
-.input__box input[type="submit"] {
+.inputBox input[type="submit"] {
     background: #ff578b;
     color: white;
     border: none;
@@ -246,7 +165,7 @@ hr {
 
 }
 
-.input__box ::placeholder {
+.inputBox ::placeholder {
     color: #999;
 }
 
@@ -259,13 +178,13 @@ hr {
     color: #fff;
 }
 
-.info .info__box div {
+.info .infoBox div {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.info .info__box div span {
+.info .infoBox div span {
     min-width: 40px;
     height: 40px;
     color: #fff;
@@ -279,13 +198,13 @@ hr {
 
 }
 
-.info .info__box div p {
+.info .infoBox div p {
     color: #fff;
     font-size: 1.1em;
 
 }
 
-.info .info__box div a {
+.info .infoBox div a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
@@ -327,6 +246,7 @@ hr {
     width: 100%;
     height: 100%;
 }
+
 
 /* Footer
 ===================*/

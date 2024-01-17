@@ -12,35 +12,35 @@
 
     <link rel="stylesheet" href="assets/css/get_in_touch.css">
 
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <title>Cork Donuts</title>
 </head>
 
 <body>
-<!-- HEADER -->
-<header class="header">
-    <div class="container">
-        <div class="nav__container">
-            <div class="header__content">
-                <div class="header__logo">
-                    <a href="index.html" style="text-decoration: none; color: floralwhite; ">
-                        <span>C</span>ork <span>D</span>onuts
-                    </a>
+
+    <header class="header">
+        <div class="container">
+            <div class="nav__container">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="index.html" style="text-decoration: none; color: floralwhite; ">
+                            <span>C</span>ork <span>D</span>onuts
+                        </a>
+                    </div>
+                    <nav class="nav">
+                        <a class="nav__link " href="index.html">Home</a>
+                        <a class="nav__link" href="index.html#about">About</a>
+                        <a class="nav__link" href="products.html">Products</a>
+                        <a class="nav__link active" href="#contact map">Locations</a>
+                        <a class="nav__link" href="order.html">Order online</a>
+                    </nav>
                 </div>
-                <nav class="nav">
-                    <a class="nav__link" href="">Home</a>
-                    <a class="nav__link" href="">About</a>
-                    <a class="nav__link active" href="products.html">Products</a>
-                    <a class="nav__link" href="get_in_touch.html">Locations</a>
-                    <a class="nav__link" href="">Order online</a>
-                </nav>
             </div>
-        </div>
-    </div>
     </header>
-    <div class="contact__us">
+
+    <div class="contactUs">
         <div class="title">
             <h2>Get in touch</h2>
         </div>
@@ -49,45 +49,91 @@
             <div class="contact form">
                 <h3>Send a message</h3>
                 <form>
-                    <div class="form__box">
+                    <div class="formBox">
                         <div class="row50">
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <span>First name</span>
                                 <input type="text" placeholder="" required>
                             </div>
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <span>Last name</span>
                                 <input type="text" placeholder="" required>
                             </div>
                         </div>
-            
+
                         <div class="row50">
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <span>Email</span>
                                 <input type="email" placeholder="" required>
                             </div>
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <span>Mobile</span>
                                 <input type="text" placeholder="" required>
                             </div>
                         </div>
                         <div class="row100">
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <span>Message</span>
                                 <textarea placeholder=""></textarea>
                             </div>
                         </div>
-            
+
                         <div class="row100">
-                            <div class="input__box">
+                            <div class="inputBox">
                                 <input type="submit" value="Send">
-            
+
                             </div>
                         </div>
                     </div>
                 </form>
             </div>
 
+            <!--infobox-->
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                    <div>
+                        <span>
+                            <ion-icon name="location"></ion-icon>
+                        </span>
+                        <p>Parnell Place, Cork <br>Ireland</p>
+                    </div>
+                    <div>
+                        <span>
+                            <ion-icon name="mail-open"></ion-icon>
+                        </span>
+                        <a href="mailto:corkdonuts@email.com">corkdonuts@email.com</a>
+                    </div>
+                    <div>
+                        <span>
+                            <ion-icon name="phone-portrait"></ion-icon>
+                        </span>
+                        <a href="</a>
+                    </div>
+                    <!--SOsial-->
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/your-facebook-page" target="_blank"><img
+                                    src="assets/images/social/fb.png" alt="Facebook Icon"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><img src="assets/images/social/tw.png"
+                                    alt="Twitter Icon"></a></li>
+                        <li><a href="https://www.linkedin.com/feed/" target="_blank"><img
+                                    src="assets/images/social/in.png" alt="Linkedin Icon"></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"> <img src="assets/images/social/yt.png"
+                                    alt="YouTube Icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--map-->
+            <div id="locations" class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.9456431300005!2d-8.46985642335644!3d51.89845607190489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844900f731da1a7%3A0x2fa6f1d378e5d988!2sParnell%20Pl%2C%20Cork!5e0!3m2!1suk!2sie!4v1705057503803!5m2!1suk!2sie"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <hr>
 
 
 <footer class="footer">
