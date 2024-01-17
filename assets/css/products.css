@@ -48,7 +48,7 @@ hr {
     z-index: 1000;
 }
 
-.header__inner {
+.header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,8 +123,6 @@ hr {
 
 
 }
-
-
 
 .section__header {
     width: 100%;
@@ -231,6 +229,28 @@ hr {
     text-transform: uppercase;
     font-weight: bold;
 
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    background: #ff578b;
+    color: white;
+    border: 2px solid #3498db;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+    color: rgba(255, 255, 255, 0.8);
+    border: 3px solid rgba(70, 170, 200, 0.8);
+    text-shadow: none;
 }
 
 /* Footer
