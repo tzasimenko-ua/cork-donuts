@@ -1,12 +1,10 @@
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #000000;
+    color: #333333;
     line-height: 1.6;
     background-size: cover;
     background-position: center;
-    animation: changeBackground 20s infinite;
 
 
 }
@@ -37,3 +35,4 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
 }
+
