@@ -115,7 +115,7 @@ hr {
     opacity: 1;
 }
 
-.contactU__us {
+.contact__us {
     position: relative;
     width: 100%;
     padding: 100px;
@@ -199,7 +199,7 @@ hr {
     width: 50%;
 }
 
-.form__box .row100 .inputBox {
+.form__box .row100 .input__box {
     width: 100%;
 
 }
