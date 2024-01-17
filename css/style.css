@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    background: #27aab6;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: floralwhite;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+
+}
+
+.header__logo span {
+    color: #00CED1;
+}
