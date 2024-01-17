@@ -209,14 +209,13 @@ hr {
     margin-bottom: 5px;
     color: #d1d100;
     text-shadow: 3px 3px 5px rgba(229, 93, 222, 0.8);
-
     color: white;
     font-size: 17px;
     text-shadow: 3px 3px 5px rgba(229, 93, 222, 0.8);
     text-transform: uppercase;
     font-weight: bold;
     position: absolute;
-    z-index: 100 !important;
+    z-index: 100;
     top: 40%;
     left: 50%;
     padding: 5px 10px;
@@ -232,4 +231,28 @@ hr {
     text-transform: uppercase;
     font-weight: bold;
 
+}
+
+/* Footer
+===================*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #4e5890;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer a {
+    color: #27aab6;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer nav a:hover {
+    border-bottom: 1px solid #3d3f3f;
 }
