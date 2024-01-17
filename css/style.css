@@ -20,6 +20,18 @@ h6 {
     margin: 0;
 }
 
+hr {
+    margin: 0;
+    border: none;
+    border-top: 2px solid #ffffff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header {
     width: 100%;
     padding: 20px 0;
@@ -49,4 +61,86 @@ h6 {
 
 .header__logo span {
     color: #00CED1;
+}
+
+.nav {
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.nav__container {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 7px 10px;
+    background: #1a7c87;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: floralwhite;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    position: relative;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover {
+    text-shadow: #0e0e0e;
+}
+
+.nav__link:hover:after,
+.nav__link.active:after {
+    opacity: 1;
+
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.background__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid white;
+    color: white;
+    text-shadow: 4px 4px 5px rgba(70, 170, 200, 0.8);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    text-decoration: none;
+
 }
