@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 20s infinite;
+
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    border-top: 2px solid #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
