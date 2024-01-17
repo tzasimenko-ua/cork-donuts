@@ -315,3 +315,39 @@ hr {
     text-shadow: 2px 2px 6px rgba(70, 170, 200, 0.8);
     line-height: 1.5;
 }
+
+/* Footer
+===================*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #4e5890;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.footer a {
+    color: #27aab6;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.footer nav a:hover {
+    border-bottom: 1px solid #3d3f3f;
+}
+
+.social img {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social img:hover {
+    background: #3d3f3f;
+    border-radius: 20%;
+
+}
