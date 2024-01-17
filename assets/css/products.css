@@ -147,3 +147,39 @@ hr {
     font-size: 50px;
     text-shadow: 3px 3px 5px rgba(229, 93, 222, 0.8);
 }
+
+
+/* product */
+.product {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.product__col {
+    flex: 1 1 0;
+}
+
+.product__item {
+    position: relative;
+    margin: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #CBA2CB, #F0BB36);
+    width: 30%;
+
+}
+
+.product__info {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translate3d(0, -50%, 0);
+    opacity: 0;
+    transition: opacity .2s linear;
+}
