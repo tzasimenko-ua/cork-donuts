@@ -220,7 +220,7 @@ hr {
 /* Banner */
 .banner {
     overflow: hidden;
-    background-color: #cba2cb;
+    background: #cba2cb;
 }
 
 .banner__section {
@@ -260,6 +260,7 @@ hr {
     font-size: 33px;
     line-height: 1.2;
     color: #fff;
+    text-align: center;
 }
 
 .order {
