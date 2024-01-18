@@ -428,7 +428,7 @@ hr {
 }
 
 .menu a:hover {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
 .menu-toggle {
@@ -441,10 +441,7 @@ hr {
 
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET */
-
-
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
     body {
         background: #03a9f5;
     }
