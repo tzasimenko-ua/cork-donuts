@@ -138,6 +138,13 @@ hr {
     opacity: 1;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    flex: 1;
+}
+
 .contact__us {
     position: relative;
     width: 100%;
@@ -385,5 +392,5 @@ hr {
     background: #3d3f3f;
 
     border-radius: 20%;
-    
+
 }
