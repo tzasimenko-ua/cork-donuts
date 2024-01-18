@@ -390,6 +390,7 @@ hr {
 
 }
 
+/* !!!!!!!!!!!!!!!!!!!!! */
 .burger-menu {
     cursor: pointer;
     display: none;
@@ -440,10 +441,62 @@ hr {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET */
+@media (min-width: 769px) and (max-width:1230px) {
+
+    /* INTRO */
+    .intro__title {
+        font-size: 90px;
+        margin-top: 20%;
+    }
+
+ 
+    .banner__photo {
+        width: 50%;
+        height: 300px;
+    }
+
+    .banner__content {
+        width: 50%;
+        padding-left: 20px;
+    }
+
+    .banner__photo img {
+        width: 100%;
+    }
+
+ 
+    .features {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .features__item {
+        width: 50%;
+        text-align: center;
+        padding: 0 20px;
+        margin: 25px 0;
+    }
+
+
+}
+
+
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
 @media (min-width: 0px) and (max-width:768px) {
 
-    /* INTRO */
+
 
     .intro__content {
         width: 100%;
@@ -465,8 +518,6 @@ hr {
 
     }
 
-
-    /* HEADER */
     .nav {
         display: none;
 
@@ -498,7 +549,7 @@ hr {
         display: block;
     }
 
-    /* BANNER */
+
 
     .banner__photo {
         width: 100%;
@@ -522,12 +573,11 @@ hr {
         width: 100%;
     }
 
-    .banner__content {
+    .banner__section {
         display: flex;
         flex-direction: column;
     }
 
-    
     .features {
         display: flex;
         flex-direction: column;
