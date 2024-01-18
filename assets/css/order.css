@@ -28,11 +28,15 @@ hr {
     border-top: 2px solid #ffffff;
 }
 
+
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+            flex: 1;
+        }
+
 
 /* Header */
 .header {
@@ -114,3 +118,19 @@ hr {
 .nav__link.active:after {
     opacity: 1;
 }
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #0e3959;
+    margin-top: 80px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28, 180, 147, 0.1);
+    border-radius: 50%;
+}
+
