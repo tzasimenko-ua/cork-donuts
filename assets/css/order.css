@@ -171,6 +171,10 @@ hr {
     border-color: #2ecc71;
 }
 
+.box ::placeholder {
+    color: #999;
+}
+
 .box input[type="submit"] {
     background: #ff578b;
     color: white;
