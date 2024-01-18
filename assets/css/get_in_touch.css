@@ -390,6 +390,7 @@ hr {
 
 }
 
+/* !!!!!!!!!!!!!!!!!!!!! */
 .burger-menu {
     cursor: pointer;
     display: none;
@@ -440,12 +441,56 @@ hr {
 }
 
 
+
+
+
+@media (max-width: 991px) {
+    body {
+        background: #03a9f5;
+    }
+
+    .contact__us {
+        padding: 20px;
+    }
+
+    .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "form"
+            "info"
+            "map";
+    }
+
+    .map {
+        min-height: 300px;
+    }
+
+    .form__box .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .input__box {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .map {
+        min-height: 300px;
+        padding: 0;
+    }
+}
+
+
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
 @media (min-width: 0px) and (max-width:768px) {
 
-
-
-    /* HEADER */
     .nav {
         display: none;
 
