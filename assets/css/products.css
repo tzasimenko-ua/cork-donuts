@@ -1,10 +1,37 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap');
+
+@keyframes changeBackground {
+    0% {
+        background-image: url(../images/banner/banner.jpeg);
+    }
+
+    25% {
+        background-image: url(../images/banner/2.jpeg);
+    }
+
+    50% {
+        background-image: url(../images/banner/3.jpeg);
+    }
+
+    75% {
+        background-image: url(../images/banner/4.jpeg);
+    }
+
+    100% {
+        background-image: url(../images/banner/5.jpg);
+    }
+}
+
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #333333;
     line-height: 1.6;
     background-size: cover;
     background-position: center;
+    animation: changeBackground 20s infinite;
 }
 
 *,
@@ -32,6 +59,17 @@ hr {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container__product {
+    border: 2px solid #fff;
+    background: rgb(203, 162, 203);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 10%;
+
 }
 
 /* Header */
@@ -273,4 +311,15 @@ hr {
 
 .footer nav a:hover {
     border-bottom: 1px solid #3d3f3f;
+}
+
+.social img {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.social img:hover {
+    background: #3d3f3f;
+    border-radius: 20%;
+    
 }
