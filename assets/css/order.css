@@ -196,3 +196,25 @@ hr {
 .box input[type="submit"]:hover {
     background: #2ecc71;
 }
+
+/* Footer
+===================*/
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #4e5890;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #27aab6;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
