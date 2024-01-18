@@ -1,4 +1,28 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap');
+
+@keyframes changeBackground {
+    0% {
+        background-image: url(../images/banner/banner.jpeg);
+    }
+
+    25% {
+        background-image: url(../images/banner/2.jpeg);
+    }
+
+    50% {
+        background-image: url(../images/banner/3.jpeg);
+    }
+
+    75% {
+        background-image: url(../images/banner/4.jpeg);
+    }
+
+    100% {
+        background-image: url(../images/banner/5.jpg);
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +33,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    animation: changeBackground 30s infinite;
 }
 
 *,
@@ -113,13 +138,13 @@ hr {
     opacity: 1;
 }
 
-.contactUs {
+.contact__us {
     position: relative;
     width: 100%;
     padding: 100px;
 }
 
-.contactUs .title {
+.contact__us .title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +154,7 @@ hr {
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
 }
 
-.contactUs .title h2 {
+.contact__us .title h2 {
     color: white;
     font-weight: 400;
 
@@ -179,37 +204,37 @@ hr {
 
 
 /* form */
-.formBox {
+.form__box {
     position: relative;
     width: 100%;
 }
 
-.formBox .row50 {
+.form__box .row50 {
     display: flex;
     gap: 20px;
 
 }
 
-.inputBox {
+.input__box {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     width: 50%;
 }
 
-.formBox .row100 .inputBox {
+.form__box .row100 .inputBox {
     width: 100%;
 
 }
 
-.inputBox span {
+.input__box span {
     color: #62abcd;
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
 }
 
-.inputBox input {
+.input__box input {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
@@ -219,7 +244,7 @@ hr {
 
 }
 
-.inputBox textarea {
+.input__box textarea {
     padding: 10px;
     font-size: 1.1em;
     outline: none;
@@ -231,7 +256,7 @@ hr {
 
 }
 
-.inputBox input[type="submit"] {
+.input__box input[type="submit"] {
     background: #ff578b;
     color: white;
     border: none;
@@ -244,7 +269,7 @@ hr {
 
 }
 
-.inputBox ::placeholder {
+.input__box ::placeholder {
     color: #999;
 }
 
@@ -257,13 +282,13 @@ hr {
     color: #fff;
 }
 
-.info .infoBox div {
+.info .info__box div {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.info .infoBox div span {
+.info .info__box div span {
     min-width: 40px;
     height: 40px;
     color: #fff;
@@ -277,13 +302,13 @@ hr {
 
 }
 
-.info .infoBox div p {
+.info .info__box div p {
     color: #fff;
     font-size: 1.1em;
 
 }
 
-.info .infoBox div a {
+.info .info__box div a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1em;
