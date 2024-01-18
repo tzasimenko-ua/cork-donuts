@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap');
 
 @keyframes changeBackground {
@@ -23,15 +22,16 @@
     }
 }
 
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #999;
+    color: #000000;
     line-height: 1.6;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     animation: changeBackground 30s infinite;
@@ -139,7 +139,6 @@ hr {
     opacity: 1;
 }
 
-
 .contact__us {
     position: relative;
     width: 100%;
@@ -205,7 +204,7 @@ hr {
 }
 
 
-/* form */
+
 .form__box {
     position: relative;
     width: 100%;
@@ -224,7 +223,7 @@ hr {
     width: 50%;
 }
 
-.form__box .row100 .inputBox {
+.form__box .row100 .input__box {
     width: 100%;
 
 }
@@ -275,7 +274,7 @@ hr {
     color: #999;
 }
 
-/*info*/
+
 .info {
     background: #0e3959;
 }
@@ -353,7 +352,6 @@ hr {
     height: 100%;
 }
 
-
 /* Footer
 ===================*/
 
@@ -388,9 +386,10 @@ hr {
 
     border-radius: 20%;
 
+
+
 }
 
-/* !!!!!!!!!!!!!!!!!!!!! */
 .burger-menu {
     cursor: pointer;
     display: none;
@@ -429,7 +428,7 @@ hr {
 }
 
 .menu a:hover {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .menu-toggle {
@@ -442,9 +441,10 @@ hr {
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET */
 
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
     body {
         background: #03a9f5;
     }
@@ -487,9 +487,9 @@ hr {
 }
 
 
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
 @media (min-width: 0px) and (max-width:768px) {
+
 
     .nav {
         display: none;
