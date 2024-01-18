@@ -220,7 +220,7 @@ hr {
 /* Banner */
 .banner {
     overflow: hidden;
-    background-color: rgb(203, 162, 203);
+    background-color: #cba2cb;
 }
 
 .banner__section {
@@ -256,7 +256,6 @@ hr {
 
 .banner__text {
     margin-bottom: 25px;
-    font-family: 'Cardo', sans-serif;
     font-style: italic;
     font-size: 33px;
     line-height: 1.2;

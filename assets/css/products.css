@@ -3,7 +3,7 @@
 
 @keyframes changeBackground {
     0% {
-        background-image: url(../images/banner/banner.jpeg);
+        background-image: url(/assets/images/1/);
     }
 
     25% {
@@ -62,7 +62,7 @@ hr {
 }
 
 .container__product {
-    
+
     border: 2px solid #fff;
     background: rgb(203, 162, 203);
     width: 100%;
