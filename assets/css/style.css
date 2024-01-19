@@ -555,12 +555,22 @@ hr {
     /* INTRO */
     .intro {
 
-        height: 80vh;
+        height: 70vh;
+    }
+
+    .intro__content {
+
+        margin: 120px auto;
     }
 
     .intro__title {
         font-size: 40px;
         margin-top: 300px;
+    }
+
+    .intro__subtitle {
+
+        font-size: 35px;
     }
 
     /* HEADER */
