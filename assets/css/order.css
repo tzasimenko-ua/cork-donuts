@@ -2,7 +2,7 @@
 
 @keyframes changeBackground {
     0% {
-        background-image: url(../images/banner/banner.jpeg);
+        background-image: url(../images/banner/1.jpeg);
     }
 
     25% {
@@ -22,6 +22,8 @@
     }
 }
 
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -29,7 +31,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: #2d2d2d;
+    color: #000000;
     line-height: 1.6;
     width: 100%;
     height: 100vh;
@@ -38,6 +40,7 @@ body {
     animation: changeBackground 30s infinite;
 }
 
+/* The asterisk (*) in CSS is a wildcard selector that targets all elements on the webpage.*/
 *,
 *:before,
 *:after {
@@ -59,14 +62,12 @@ hr {
     border-top: 2px solid #ffffff;
 }
 
-
+/* Container */
 .container {
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
-    flex: 1;
 }
-
 
 /* Header */
 .header {
@@ -80,10 +81,11 @@ hr {
     z-index: 1000;
 }
 
-.header__content {
+.header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .header__logo {
@@ -101,6 +103,7 @@ hr {
 }
 
 
+
 .nav {
     font-size: 18px;
     text-transform: uppercase;
@@ -114,6 +117,7 @@ hr {
     padding: 7px 10px;
     background: #1a7c87;
 }
+
 
 .nav__link {
     display: inline-block;
@@ -141,6 +145,7 @@ hr {
 }
 
 .nav__link:hover {
+    /*  color: rgb(65, 104, 109); */
     text-shadow: #000000;
 }
 
@@ -164,6 +169,8 @@ hr {
     border-radius: 50%;
 }
 
+
+
 .box h1 {
     text-align: center;
     text-shadow: 3px 3px 5px rgba(229, 93, 222, 0.8);
@@ -180,8 +187,10 @@ hr {
     transition: 0.25s;
 }
 
+
 .box input[type="text"],
 .box input[type="nomber"] {
+
     border: 0;
     background: none;
     margin: 20px auto;
@@ -193,13 +202,17 @@ hr {
     color: rgb(255, 255, 255);
     border-radius: 24px;
     transition: 0.25s;
+
 }
+
+
 
 .box input[type="text"]:focus,
 .box input[type="nomber"]:focus {
     width: 280px;
     border-color: #2ecc71;
 }
+
 
 .box ::placeholder {
     color: #999;
@@ -226,6 +239,7 @@ hr {
 .box input[type="submit"]:hover {
     background: #2ecc71;
 }
+
 
 /* Footer
 ===================*/
@@ -259,10 +273,19 @@ hr {
 
 .social img:hover {
     background: #3d3f3f;
+
     border-radius: 20%;
 
+
+
 }
-.burger-menu {
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!! */
+.burger__menu {
     cursor: pointer;
     display: none;
     padding: 15px;
@@ -303,7 +326,7 @@ hr {
     background-color: transparent;
 }
 
-.menu-toggle {
+.menu__toggle {
     display: none;
 }
 
@@ -312,128 +335,47 @@ hr {
     z-index: 10;
 }
 
-  @media (min-width: 0px) and (max-width:768px) {
-
-      .nav {
-          display: none;
-
-      }
-
-      .burger-menu {
-          display: block;
-      }
-
-      .menu {
-          display: none;
-          flex-direction: column;
-          position: absolute;
-          top: 60px;
-          left: 0;
-          width: 100%;
-      }
-
-      .menu-toggle:checked+.burger-menu+.menu {
-          display: flex;
-      }
-
-      .menu li {
-          margin-right: 0;
-          text-align: center;
-      }
-
-      .wrapper_mob_menu {
-          display: block;
-      }
-
-
-  }
-  .burger-menu {
-      cursor: pointer;
-      display: none;
-      padding: 15px;
-      background-color: #1a7c87;
-      color: #fff;
-  }
-
-  .bar {
-      width: 25px;
-      height: 3px;
-      background-color: #fff;
-      margin: 6px 0;
-  }
-
-  .menu {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      background-color: #1a7c87;
-      margin-top: 25px;
-  }
-
-  .menu li {
-      margin-right: 20px;
-  }
-
-  .menu a {
-      text-decoration: none;
-      color: #fff;
-      font-weight: bold;
-      font-size: 18px;
-      display: block;
-      padding: 15px;
-  }
-
-  .menu a:hover {
-      background-color: transparent;
-  }
-
-  .menu-toggle {
-      display: none;
-  }
-
-  .wrapper_mob_menu {
-      display: none;
-      z-index: 10;
-  }
 
 
 
-  /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
-  @media (min-width: 0px) and (max-width:768px) {
 
 
-      .nav {
-          display: none;
-
-      }
-
-      .burger-menu {
-          display: block;
-      }
-
-      .menu {
-          display: none;
-          flex-direction: column;
-          position: absolute;
-          top: 60px;
-          left: 0;
-          width: 100%;
-      }
-
-      .menu-toggle:checked+.burger-menu+.menu {
-          display: flex;
-      }
-
-      .menu li {
-          margin-right: 0;
-          text-align: center;
-      }
-
-      .wrapper_mob_menu {
-          display: block;
-      }
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
+@media (min-width: 0px) and (max-width:768px) {
 
 
-  }
+    /* HEADER */
+    .nav {
+        display: none;
+
+    }
+
+    .burger__menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .menu__toggle:checked+.burger__menu+.menu {
+        display: flex;
+    }
+
+    .menu li {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .wrapper_mob_menu {
+        display: block;
+    }
+
+
+}
 

@@ -2,7 +2,7 @@
 
 @keyframes changeBackground {
     0% {
-        background-image: url(../images/banner/banner.jpeg);
+        background-image: url(../images/banner/1.jpeg);
     }
 
     25% {
@@ -31,12 +31,13 @@ body {
     color: #000000;
     line-height: 1.6;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
     animation: changeBackground 30s infinite;
 }
 
+/* The asterisk (*) in CSS is a wildcard selector that targets all elements on the webpage.*/
 *,
 *:before,
 *:after {
@@ -58,7 +59,7 @@ hr {
     border-top: 2px solid #ffffff;
 }
 
-/* Header */
+
 .header {
     width: 100%;
     padding: 20px 0;
@@ -131,6 +132,7 @@ hr {
 }
 
 .nav__link:hover {
+    /*  color: rgb(65, 104, 109); */
     text-shadow: #000000;
 }
 
@@ -138,6 +140,15 @@ hr {
 .nav__link.active:after {
     opacity: 1;
 }
+
+
+/* Container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 
 .contact__us {
     position: relative;
@@ -204,7 +215,7 @@ hr {
 }
 
 
-
+/* form */
 .form__box {
     position: relative;
     width: 100%;
@@ -240,8 +251,6 @@ hr {
     font-size: 1.1em;
     outline: none;
     border: 1px solid #333;
-    border-radius: 24px;
-
 
 }
 
@@ -252,9 +261,6 @@ hr {
     border: 1px solid #333;
     min-height: 220px;
     margin-bottom: 10px;
-    border-radius: 24px;
-
-
 }
 
 .input__box input[type="submit"] {
@@ -266,15 +272,13 @@ hr {
     font-weight: 500;
     cursor: pointer;
     padding: 14px 15px;
-    border-radius: 24px;
-
 }
 
 .input__box ::placeholder {
     color: #999;
 }
 
-
+/*info*/
 .info {
     background: #0e3959;
 }
@@ -335,11 +339,6 @@ hr {
     color: #353333;
 }
 
-.sci li a:hover {
-    color: #353333;
-
-
-}
 
 .map {
     padding: 0%;
@@ -351,6 +350,8 @@ hr {
     width: 100%;
     height: 100%;
 }
+
+
 
 /* Footer
 ===================*/
@@ -390,7 +391,12 @@ hr {
 
 }
 
-.burger-menu {
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!! */
+.burger__menu {
     cursor: pointer;
     display: none;
     padding: 15px;
@@ -431,7 +437,7 @@ hr {
     background-color: transparent;
 }
 
-.menu-toggle {
+.menu__toggle {
     display: none;
 }
 
@@ -441,13 +447,10 @@ hr {
 
 
 
-@media (max-width: 991px) {
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET */
+@media (max-width:1230px) {
     body {
         background: #03a9f5;
-    }
-
-    .contact__us {
-        padding: 20px;
     }
 
     .box {
@@ -481,19 +484,20 @@ hr {
         min-height: 300px;
         padding: 0;
     }
-}
 
+
+}
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
 @media (min-width: 0px) and (max-width:768px) {
 
-
+    /* HEADER */
     .nav {
         display: none;
 
     }
 
-    .burger-menu {
+    .burger__menu {
         display: block;
     }
 
@@ -506,7 +510,7 @@ hr {
         width: 100%;
     }
 
-    .menu-toggle:checked+.burger-menu+.menu {
+    .menu__toggle:checked+.burger__menu+.menu {
         display: flex;
     }
 
@@ -520,4 +524,17 @@ hr {
     }
 
 
+    .contact__us {
+        padding: 10%;
+        margin-top: 10%;
+    }
+
+    .contact__us .title h2 {
+
+        text-align: center;
+        margin-top: 25px;
+
+
+
+    }
 }

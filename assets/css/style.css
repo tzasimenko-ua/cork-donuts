@@ -3,7 +3,7 @@
 
 @keyframes changeBackground {
     0% {
-        background-image: url(../images/banner/banner.jpeg);
+        background-image: url(../images/banner/1.jpeg);
     }
 
     25% {
@@ -37,10 +37,12 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    color: #000000;
     line-height: 1.6;
     background: #27aab6;
 }
 
+/* The asterisk (*) in CSS is a wildcard selector that targets all elements on the webpage.*/
 *,
 *:before,
 *:after {
@@ -75,23 +77,22 @@ hr {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+
 
 }
 
 .background__image {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     animation: changeBackground 20s infinite;
-
 }
 
 .intro__content {
     width: 100%;
     max-width: 880px;
-
     margin: 30px auto;
     text-align: center;
 
@@ -119,7 +120,6 @@ hr {
 }
 
 .header {
-    width: 100%;
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -133,6 +133,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .header__burger-btn {
@@ -141,7 +142,7 @@ hr {
     width: 40px;
     height: 40px;
     border: none;
-    background-color: #ffffff;
+    background-color: #000000;
 
 }
 
@@ -201,8 +202,6 @@ hr {
     margin: 0 10px;
     color: floralwhite;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
-
-
     position: relative;
     text-decoration: none;
     transition: color .1s linear;
@@ -223,6 +222,7 @@ hr {
 }
 
 .nav__link:hover {
+    /*  color: rgb(65, 104, 109); */
     text-shadow: #000000;
 }
 
@@ -255,6 +255,7 @@ hr {
 }
 
 
+/* features */
 
 .features {
     display: flex;
@@ -295,7 +296,7 @@ hr {
 }
 
 
-/* team */
+/* banner */
 .banner {
     overflow: hidden;
     background-color: rgb(203, 162, 203);
@@ -315,7 +316,6 @@ hr {
 
 .banner__img {
     position: absolute;
-
     top: 50%;
     right: 0;
     z-index: 1;
@@ -333,17 +333,13 @@ hr {
 }
 
 
-
-
-
 .banner__text {
     margin-bottom: 25px;
-
-    font-family: 'Cardo', sans-serif;
     font-style: italic;
     font-size: 33px;
     line-height: 1.2;
     color: #fff;
+    text-align: center;
 }
 
 /* Download
@@ -439,7 +435,7 @@ hr {
 
 
 /* !!!!!!!!!!!!!!!!!!!!! */
-.burger-menu {
+.burger__menu {
     cursor: pointer;
     display: none;
     padding: 15px;
@@ -477,10 +473,10 @@ hr {
 }
 
 .menu a:hover {
-    background-color: transparent !important;
+    background-color: transparent;
 }
 
-.menu-toggle {
+.menu__toggle {
     display: none;
 }
 
@@ -500,12 +496,19 @@ hr {
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!TABLET */
+
 @media (min-width: 769px) and (max-width:1230px) {
 
     /* INTRO */
+
+    .intro {
+
+        height: 60vh;
+    }
+
     .intro__title {
-        font-size: 80px;
-        margin-top: 15%;
+        font-size: 90px;
+        margin-top: 300px;
     }
 
     /* ABOUT */
@@ -519,15 +522,14 @@ hr {
         padding-left: 20px;
     }
 
-        .banner__text {
-            text-align: center;
-
-        }
-
     .banner__photo img {
         width: 100%;
     }
 
+    .banner__text {
+
+        text-align: center;
+    }
 
     .features {
         display: flex;
@@ -546,38 +548,28 @@ hr {
 
 
 
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MOBILE */
 @media (min-width: 0px) and (max-width:768px) {
 
+    /* INTRO */
+    .intro {
 
-
-    .intro__content {
-        width: 100%;
-        padding: 50px;
-        margin: 30px auto;
-        text-align: center;
-
-
+        height: 80vh;
     }
 
     .intro__title {
         font-size: 40px;
-        margin-top: 20%;
+        margin-top: 300px;
     }
 
-    .intro__subtitle {
-
-        font-size: 20px;
-
-    }
-
-
+    /* HEADER */
     .nav {
         display: none;
 
     }
 
-    .burger-menu {
+    .burger__menu {
         display: block;
     }
 
@@ -590,7 +582,7 @@ hr {
         width: 100%;
     }
 
-    .menu-toggle:checked+.burger-menu+.menu {
+    .menu__toggle:checked+.burger__menu+.menu {
         display: flex;
     }
 
@@ -603,7 +595,7 @@ hr {
         display: block;
     }
 
-
+    /* ABOUT */
 
     .banner__photo {
         width: 100%;
@@ -625,6 +617,7 @@ hr {
 
     .banner__photo img {
         width: 100%;
+
     }
 
     .banner__section {
@@ -632,7 +625,12 @@ hr {
         flex-direction: column;
     }
 
+    .order__title {
 
+        font-size: 30px;
+    }
+
+    /* HOW */
     .features {
         display: flex;
         flex-direction: column;
