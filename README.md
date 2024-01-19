@@ -10,7 +10,7 @@ It is the result of acquired technical knowledge that resonates with the overall
   
 - [Table of Contents](#table-of-contents)
   - [Demo](#demo)
-    - [A live demo to the website can be found he](https://tzasimenko-ua.github.io/cork-donuts//)
+    - [A live demo to the website can be found he](./assets/images/readme_assets.md/maket.pdf)
   - [UX](#ux)
   - [User stories](#user-stories)
     - [Strategy](#strategy)
@@ -26,14 +26,14 @@ It is the result of acquired technical knowledge that resonates with the overall
     - [Validator Testing](#validator-testing)
     - [Bugs](#bugs)
   - [Deployment](#deployment)
-   [Credits](#credits)
+  - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
 
 
 ## Demo
 
-![Website look on different devices](./assets/images/readme_assets.md/device.png)
+![Website look on different devices](./assets/readme_assets.md/divaise%202.png)
 
 ### A live demo to the website can be found [here](https://tzasimenko-ua.github.io/cork-donuts/)
 
@@ -103,14 +103,13 @@ My wireframe design in the [(pdf format)](./assets/readme_assets.md/maket.pdf)
 I chose a bright and colorful donut animation for the website background for several reasons. Firstly, it creates a fun and appealing atmosphere, perfectly aligning with the theme of a donut ordering site. Secondly, such animation adds creativity and originality to the visual design, making the project stand out among competitors. Finally, this animation symbolizes joy and enjoyment, encouraging visitors to place orders and creating a positive user experience. This choice is not only stylish but also strategically justified to capture attention and provide a pleasant visual perception of the donut ordering website.
 
 _Background image_
-![Background image used](./assets/images/readme_assets.md/main.png)
+![Background image used](./assets/readme_assets.md/main%202.png)
 
 _Main color palette_
 
-![Main color Palette](./assets/images/readme_assets.md/colors2.png)
+![Main color Palette](./assets/readme_assets.md/colors.png)
 
-![Main color Palette](./assets/images/readme_assets.md/colors.png
-)
+![Main color Palette](./assets/readme_assets.md/colors2.png)
 
 ## Technologies
 
@@ -128,45 +127,45 @@ _Main color palette_
   - The font color stands out against the navigation background. The underline effect is used for navigation so the user can know which page they are on.
   - The various navigation sections are under intuitive headings. Users can easily understand what information is contained in different sections.
 
-![navigation_bar](./assets/images/readme_assets.md/nav.png)
+![navigation_bar](./assets/readme_assets.md/nav%202.png)
 
 - **Home**
 
 - The name of manufacture is superimposed on the background animation with a touch of the main colors of the site
 - There is a feedback button for quick interaction with the visitor
   
-![home_section](./assets/images/readme_assets.md/main2.png)
+![home_section](./assets/readme_assets.md/main%202.png)
 
 - **About**
   - The "About" section indicates the most important qualities for the client
   - This section uses a small amount of text and clear visualization of the benefits in pictures
 
-![about](./assets/images/readme_assets.md/about.png)
+![about](./assets/readme_assets.md/about%202.png)
 
 - **Products**
   - The “Products” section presents the proposed sets of the main product
     - This section has a photo and a button to request a call back
 
-![products_section](./assets/images/readme_assets.md/products.png)
+![products_section](./assets/readme_assets.md/products%202.png)
 
 - **Get in touch**
       - This section contains information about the location of production and contact information
       - A form has been placed for sending messages from visitors
   - Added hints on correct filling to avoid mistakes
 
-![get_in_touch_section](./assets/images/readme_assets.md/get_in_touch.png)
+![get_in_touch_section](./assets/readme_assets.md/get_in_touch%202.png)
 
 - **Order online**
       - This section contains information on placing an order via a call back
       - Added required fields to avoid empty forms.
   - There is a change of colors when moving from one field to another to add interactivity
 
-![order_online_section](./assets/images/readme_assets.md/order.png)
+![order_online_section](./assets/css/order.css)
 
 - **Footer**
   - This section contains links to social networks and identical links to sections of the site as in the site header
 
-[footer_section](./assets/images/readme_assets.md/footer.png)
+[footer_section](./assets/readme_assets.md/footer%202.png)
 
 ### Features Left to Implement
 
